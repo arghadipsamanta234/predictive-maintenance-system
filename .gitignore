@@ -1,0 +1,64 @@
+# ==============================
+# Python virtual environment
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Python cache files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Local database files
+# ==============================
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite3
+data/*.sqlite-*
+
+# ==============================
+# VS Code and operating system files
+# ==============================
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Testing and coverage
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# Build and distribution files
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Jupyter Notebook checkpoints
+# ===============================
+.ipynb_checkpoints/
